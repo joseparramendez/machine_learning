@@ -1,6 +1,0 @@
-import pandas
-data = 'pima_indians.csv'
-names = ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'Outcome']
-dataset = pandas.read_csv(data, names = names)
-print(dataset.shape)
-print(dataset.head(20))
